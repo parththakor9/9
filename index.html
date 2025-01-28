@@ -1,0 +1,26 @@
+<!DOCTYPE html> <!-- DECLARES THE DOCUMENT TYPE AS HTML -->
+<html lang="en"> <!-- OPENING HTML TAG WITH LANGUAGE SET TO ENGLISH -->
+<head> <!-- OPENING HEAD SECTION -->
+    <meta charset="utf-8" /> <!-- DEFINES THE CHARACTER ENCODING TO UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- SETS VIEWPORT SETTINGS FOR RESPONSIVE DESIGN -->
+    <title>Lab 1 | COMP1073 Client-Side JavaScript</title> <!-- TITLE OF THE WEB PAGE -->
+    <link href="css/styles.css" rel="stylesheet" /> <!-- LINK TO EXTERNAL CSS FILE FOR STYLES -->
+</head> <!-- CLOSING HEAD SECTION -->
+<body> <!-- OPENING BODY SECTION -->
+    <div> <!-- START OF FIRST DIV CONTAINER -->
+        <label for="customname">Enter custom name:</label> <!-- LABEL FOR USER INPUT FIELD -->
+        <input id="customname" type="text" placeholder="Enter a name" /> <!-- INPUT FIELD FOR USER TO ENTER A NAME -->
+    </div> <!-- CLOSING FIRST DIV CONTAINER -->
+    <div> <!-- START OF SECOND DIV CONTAINER -->
+        <label for="imperial">Imperial</label> <!-- LABEL FOR IMPERIAL RADIO BUTTON -->
+        <input id="imperial" type="radio" name="units" value="imperial" checked /> <!-- RADIO BUTTON FOR IMPERIAL UNIT, SELECTED BY DEFAULT -->
+        <label for="metric">Metric</label> <!-- LABEL FOR METRIC RADIO BUTTON -->
+        <input id="metric" type="radio" name="units" value="metric" /> <!-- RADIO BUTTON FOR METRIC UNIT -->
+    </div> <!-- CLOSING SECOND DIV CONTAINER -->
+    <div> <!-- START OF THIRD DIV CONTAINER -->
+        <button class="randomize">Generate random story</button> <!-- BUTTON TO GENERATE A RANDOM STORY -->
+    </div> <!-- CLOSING THIRD DIV CONTAINER -->
+    <p class="story"></p> <!-- PARAGRAPH ELEMENT TO DISPLAY THE GENERATED STORY -->
+    <script src="js/silly-story.js"></script> <!-- LINK TO EXTERNAL JAVASCRIPT FILE -->
+</body> <!-- CLOSING BODY SECTION -->
+</html> <!-- CLOSING HTML TAG -->
